@@ -23,7 +23,7 @@ Natural language processing (NLP) is a process that the interactions between com
     In linguistics, a corpus or text corpus is a language resources consisting of a large and structured set of texts. In corpus linguistics, they are used to do statistical analysis and hypothesis testing. Checking occurences or validating linguistics rules within a specific language territory. ML models calls instead for using statistical inference to automatically learn such rules through the analysis of corpora. Drawback of statistical methods is that they require elaborate feature engineering
     
     - *Machine learning algorthimis*:
-    With the growth of the web, increasing amounts of raw(unannotated) language data, research has thus increasingly focused on unsupervised and semi-supervised learning algorthimis. The use of word embeddings to capture semantic properties of words, and an increase in end-to-end learning of a higher-level task(e.g question answering) instead of relying on a pipeline od separate intermediate tasks(e.g., part-of-speach tagging and dependency parsing).    
+    With the growth of the web, increasing amounts of raw(unannotated) language data, research has thus increasingly focused on unsupervised and semi-supervised learning algorthimis. The use of word embeddings to capture semantic properties of words, and an increase in end-to-end learning of a higher-level task(e.g question answering) instead of relying on a pipeline of separate intermediate tasks(e.g., part-of-speach tagging and dependency parsing).    
     
 3. #### Neural NLP (2010s - present):
     Represntation learning and deep neural network machine learning methods became widespread in NLP. due to a flurry of results showing that such techniques can achieve state-of-the-art results in many natural language tasks.
@@ -42,8 +42,8 @@ Natural language processing (NLP) is a process that the interactions between com
 ### Symbolic methods are still (2020) commonly used
    - When the amount of training data is insufficient to successfully apply machine learning methods. (Apertium system)
    - For preprocessing in NLP pipelines eg., tokenization, or
-   - For postprocessing anf transforming the output of NLP pipelines eg., knowledge extraction from syntactic parses.
-
+   - For postprocessing and transforming the output of NLP pipelines eg., knowledge extraction from syntactic parses.
+   
    1. *Apertium system*: Is a free/open-source rules-based machine translation platfrom.
    2. *Tokenization*: Is the process of converting a sequence of characters into a sequence of tokens.
    3. *Knowledge extraction*: Is the creation of knowledge from structured and unstructured source.
