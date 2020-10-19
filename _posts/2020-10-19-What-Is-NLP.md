@@ -34,7 +34,7 @@ Natural language processing (NLP) is a process that the interactions between com
     - *Deep natural network*:
     Neural network is part of a broader family of machine learning methods based on artificial neural network with represntation learning.
 
-### con in Symbolic NLP:
+### cons in Symbolic NLP:
    - Learning procedures used during ML automatically focus on the most common cases, whereas hand-written rules ofton not at all obvious where the effort should be directed.
    - In ML models that are robust to unfamiliar input and erroneous input. Generally handling such input hand-written rules that make soft decisions, is extermely difficult error-prone and time-consuming.
    - In ML the rules can be made more accurate simply by supplying more input data.However in hand-written rules can only be made more accurate by increasing the complexity of the rules.
@@ -43,7 +43,7 @@ Natural language processing (NLP) is a process that the interactions between com
    - When the amount of training data is insufficient to successfully apply machine learning methods. (Apertium system)
    - For preprocessing in NLP pipelines eg., tokenization, or
    - For postprocessing anf transforming the output of NLP pipelines eg., knowledge extraction from syntactic parses.
-	
+
    1. *Apertium system*: Is a free/open-source rules-based machine translation platfrom.
    2. *Tokenization*: Is the process of converting a sequence of characters into a sequence of tokens.
    3. *Knowledge extraction*: Is the creation of knowledge from structured and unstructured source.
@@ -57,6 +57,6 @@ Natural language processing (NLP) is a process that the interactions between com
    6. Discourse (Coreference resolution, discourse analysis, implicit semantic role labelling, Recognizing textual entailment,Topic segmentation and recognition).
    7. Higher-level NLP applications (automatic summarization, book generation,Dialogue management, Machine translation, Natural language generation NLG, natural language understanding NLU,Question answering).
 	
- ### Resource
+### Resource
  1. Wikipedia [links](https://en.wikipedia.org/wiki/Natural_language_processing#:~:text=Natural%20language%20processing%20(NLP)%20is,amounts%20of%20natural%20language%20data).
  2. fastai about NLP [links](https://github.com/fastai/course-nlp/blob/master/1-what-is-nlp.ipynb).
