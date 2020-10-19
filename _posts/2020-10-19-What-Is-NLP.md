@@ -57,6 +57,6 @@ Natural language processing (NLP) is a process that the interactions between com
    6. Discourse (Coreference resolution, discourse analysis, implicit semantic role labelling, Recognizing textual entailment,Topic segmentation and recognition).
    7. Higher-level NLP applications (automatic summarization, book generation,Dialogue management, Machine translation, Natural language generation NLG, natural language understanding NLU,Question answering).
 	
- #### Resource
- 1.  Wikipedia [links](https://en.wikipedia.org/wiki/Natural_language_processing#:~:text=Natural%20language%20processing%20(NLP)%20is,amounts%20of%20natural%20language%20data).
- 2.  fastai about NLP [links](https://github.com/fastai/course-nlp/blob/master/1-what-is-nlp.ipynb).
+ ### Resource
+ 1. Wikipedia [links](https://en.wikipedia.org/wiki/Natural_language_processing#:~:text=Natural%20language%20processing%20(NLP)%20is,amounts%20of%20natural%20language%20data).
+ 2. fastai about NLP [links](https://github.com/fastai/course-nlp/blob/master/1-what-is-nlp.ipynb).
