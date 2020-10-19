@@ -8,15 +8,15 @@
 <meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="What is NLP, what can we do with NLP" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="What is NLP, What can we do with NLP, We learn top-down approach." />
-<meta property="og:description" content="What is NLP, What can we do with NLP, We learn top-down approach." />
+<meta name="description" content="What is NLP, What can we do with NLP, We use top-down approach learning." />
+<meta property="og:description" content="What is NLP, What can we do with NLP, We use top-down approach learning." />
 <link rel="canonical" href="https://rajeshkumarsomu.github.io/Rajesh-blog/nlp/fastai/2020/10/19/What-Is-NLP.html" />
 <meta property="og:url" content="https://rajeshkumarsomu.github.io/Rajesh-blog/nlp/fastai/2020/10/19/What-Is-NLP.html" />
 <meta property="og:site_name" content="Deep Learning blog" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-10-19T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"What is NLP, What can we do with NLP, We learn top-down approach.","url":"https://rajeshkumarsomu.github.io/Rajesh-blog/nlp/fastai/2020/10/19/What-Is-NLP.html","@type":"BlogPosting","headline":"What is NLP, what can we do with NLP","dateModified":"2020-10-19T00:00:00-05:00","datePublished":"2020-10-19T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://rajeshkumarsomu.github.io/Rajesh-blog/nlp/fastai/2020/10/19/What-Is-NLP.html"},"@context":"https://schema.org"}</script>
+{"description":"What is NLP, What can we do with NLP, We use top-down approach learning.","url":"https://rajeshkumarsomu.github.io/Rajesh-blog/nlp/fastai/2020/10/19/What-Is-NLP.html","@type":"BlogPosting","headline":"What is NLP, what can we do with NLP","dateModified":"2020-10-19T00:00:00-05:00","datePublished":"2020-10-19T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://rajeshkumarsomu.github.io/Rajesh-blog/nlp/fastai/2020/10/19/What-Is-NLP.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Rajesh-blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://rajeshkumarsomu.github.io/Rajesh-blog/feed.xml" title="Deep Learning blog" /><link rel="shortcut icon" type="image/x-icon" href="/Rajesh-blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -71,13 +71,13 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">What is NLP, what can we do with NLP</h1><p class="page-description">What is NLP, What can we do with NLP, We learn top-down approach.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-10-19T00:00:00-05:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">What is NLP, what can we do with NLP</h1><p class="page-description">What is NLP, What can we do with NLP, We use top-down approach learning.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-10-19T00:00:00-05:00" itemprop="datePublished">
         Oct 19, 2020
       </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>
 
@@ -97,9 +97,66 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul class="section-nav">
-<li class="toc-entry toc-h1"><a href="#what-is-nlp-and-what-can-we-do-with-nlp">What is NLP and What can we do with NLP?</a></li>
-</ul><h1 id="what-is-nlp-and-what-can-we-do-with-nlp">
-<a class="anchor" href="#what-is-nlp-and-what-can-we-do-with-nlp" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is NLP and What can we do with NLP?</h1>
+<li class="toc-entry toc-h2"><a href="#what-is-nlp-and-what-can-we-do-with-nlp">What is NLP and What can we do with NLP?</a></li>
+<li class="toc-entry toc-h2"><a href="#evolution-of-nlp">Evolution of NLP</a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#symbolic-nlp-1950s---early-1990s">Symbolic NLP (1950s - early 1990s):</a></li>
+<li class="toc-entry toc-h4"><a href="#statistical-nlp-1990s---2010s">Statistical NLP (1990s - 2010s):</a></li>
+<li class="toc-entry toc-h4"><a href="#neural-nlp-2010s---present">Neural NLP (2010s - present):</a></li>
+</ul>
+</li>
+</ul><h2 id="what-is-nlp-and-what-can-we-do-with-nlp">
+<a class="anchor" href="#what-is-nlp-and-what-can-we-do-with-nlp" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is NLP and What can we do with NLP?</h2>
+<p>Natural language processing (NLP) is a process that the interactions between computers and human language. Which process and analyze large amounts of natural language date. NLP  is a subfield of Linguistics, Computer Science, and Artificial Intelligence.</p>
+
+<ul>
+  <li>Linguistics: Study of language it involves the analysis of language form, language meaning, and language in context.</li>
+  <li>Computer Science: Study of algorthimic processes and computational machines.</li>
+  <li>Artificial Intelligence: Is intelligence demonstrated by machines, unlike the human and animals.</li>
+</ul>
+
+<h2 id="evolution-of-nlp">
+<a class="anchor" href="#evolution-of-nlp" aria-hidden="true"><span class="octicon octicon-link"></span></a>Evolution of NLP</h2>
+<ol>
+  <li>
+    <h4 id="symbolic-nlp-1950s---early-1990s">
+<a class="anchor" href="#symbolic-nlp-1950s---early-1990s" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Symbolic NLP (1950s - early 1990s)</em>:</h4>
+    <p>Based on complex sets of hand-written rules (like Georgetown experiment 1950s, SHRDLU and ELIZA 1960s, Conceptual ontologies 1970s, HPSG, morphology, semantics 1980s are some of the evolution in NLP)</p>
+  </li>
+  <li>
+    <h4 id="statistical-nlp-1990s---2010s">
+<a class="anchor" href="#statistical-nlp-1990s---2010s" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Statistical NLP (1990s - 2010s)</em>:</h4>
+    <p>In late 1980s revolution in NLP with the introduction of statistical &amp; machine learning algorthims for language processing.</p>
+
+    <ul>
+      <li>
+        <p><strong>Statistical Methods</strong>:
+ In linguistics, a corpus or text corpus is a language resources consisting of a large and structured set of texts. In corpus linguistics, they are used to do statistical analysis and hypothesis testing. Checking occurences or validating linguistics rules within a specific language territory. ML models calls instead for using statistical inference to automatically learn such rules through the analysis of corpora. Drawback of statistical methods is that they require elaborate feature engineering</p>
+      </li>
+      <li>
+        <p><strong>Machine learning algorthimis</strong>:
+ With the growth of the web, increasing amounts of raw(unannotated) language data, research has thus increasingly focused on unsupervised and semi-supervised learning algorthimis. The use of word embeddings to capture semantic properties of words, and an increase in end-to-end learning of a higher-level task(e.g question answering) instead of relying on a pipeline od separate intermediate tasks(e.g., part-of-speach tagging and dependency parsing).</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <h4 id="neural-nlp-2010s---present">
+<a class="anchor" href="#neural-nlp-2010s---present" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Neural NLP (2010s - present)</em>:</h4>
+    <p>Represntation learning and deep neural network machine learning methods became widespread in NLP. due to a flurry of results showing that such techniques can achieve state-of-the-art results in many natural language tasks.</p>
+
+    <ul>
+      <li>
+        <p><strong>Represntation learning</strong>:
+ Feature learning or represntation learning is set of techniques that allows a system to automatically discover the represntation needed for feature detection or classification from raw data.</p>
+      </li>
+      <li>
+        <p><strong>Deep natural network</strong>:
+ Neural network is part of a broader family of machine learning methods based on artificial neural network with represntation learning.</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+
 
   </div><a class="u-url" href="/Rajesh-blog/nlp/fastai/2020/10/19/What-Is-NLP.html" hidden></a>
 </article>
