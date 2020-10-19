@@ -41,21 +41,21 @@ Natural language processing (NLP) is a process that the interactions between com
 
 ### Symbolic methods are still (2020) commonly used
    - When the amount of training data is insufficient to successfully apply machine learning methods. (Apertium system)
-	  - For preprocessing in NLP pipelines eg., tokenization, or
-	  - For postprocessing anf transforming the output of NLP pipelines eg., knowledge extraction from syntactic parses.
+   - For preprocessing in NLP pipelines eg., tokenization, or
+   - For postprocessing anf transforming the output of NLP pipelines eg., knowledge extraction from syntactic parses.
 	
      1. *Apertium system*: Is a free/open-source rules-based machine translation platfrom.
-	    2. *Tokenization*: Is the process of converting a sequence of characters into a sequence of tokens.
-	    3. *Knowledge extraction*: Is the creation of knowledge from structured and unstructured source.
+     2. *Tokenization*: Is the process of converting a sequence of characters into a sequence of tokens.
+     3. *Knowledge extraction*: Is the creation of knowledge from structured and unstructured source.
 
 ### Common NLP Tasks
-   1. Text and speech processing ( OCR, Speech recognition, Speech segmentation, Text-to-speech, Word segmentation)
-	  2. Morphological analysis (Lemmatization,morphological segmentation, part-of-speech tagging, Stemming)
-	  3. Syntactic analysis (Grammar induction, sentence breaking, parsing)
-	  4. Lexical semantic (Lexical semantics, distributional semantics, Named entity recognition NER, Sentiment analysis, Terminology extraction, Word sense disambiguation)
-	  5. Relational semantics (Relationship extraction, semantic parsing,semantic Role labelling)
-	  6. Discourse (Coreference resolution, discourse analysis, implicit semantic role labelling, Recognizing textual entailment,Topic segmentation and recognition)
-	  7. Higher-level NLP applications (automatic summarization, book generation,Dialogue management, Machine translation, Natural language generation NLG, natural language understanding NLU,Question answering)
+   1. Text and speech processing ( OCR, Speech recognition, Speech segmentation, Text-to-speech, Word segmentation).
+   2. Morphological analysis (Lemmatization,morphological segmentation, part-of-speech tagging, Stemming).
+   3. Syntactic analysis (Grammar induction, sentence breaking, parsing).
+   4. Lexical semantic (Lexical semantics, distributional semantics, Named entity recognition NER, Sentiment analysis, Terminology extraction, Word sense disambiguation).
+   5. Relational semantics (Relationship extraction, semantic parsing,semantic Role labelling).
+   6. Discourse (Coreference resolution, discourse analysis, implicit semantic role labelling, Recognizing textual entailment,Topic segmentation and recognition).
+   7. Higher-level NLP applications (automatic summarization, book generation,Dialogue management, Machine translation, Natural language generation NLG, natural language understanding NLU,Question answering).
 	
  #### Resource
  1.  Wikipedia [links](https://en.wikipedia.org/wiki/Natural_language_processing#:~:text=Natural%20language%20processing%20(NLP)%20is,amounts%20of%20natural%20language%20data).
