@@ -44,9 +44,9 @@ Natural language processing (NLP) is a process that the interactions between com
    - For preprocessing in NLP pipelines eg., tokenization, or
    - For postprocessing anf transforming the output of NLP pipelines eg., knowledge extraction from syntactic parses.
 	
-     1. *Apertium system*: Is a free/open-source rules-based machine translation platfrom.
-     2. *Tokenization*: Is the process of converting a sequence of characters into a sequence of tokens.
-     3. *Knowledge extraction*: Is the creation of knowledge from structured and unstructured source.
+   1. *Apertium system*: Is a free/open-source rules-based machine translation platfrom.
+   2. *Tokenization*: Is the process of converting a sequence of characters into a sequence of tokens.
+   3. *Knowledge extraction*: Is the creation of knowledge from structured and unstructured source.
 
 ### Common NLP Tasks
    1. Text and speech processing ( OCR, Speech recognition, Speech segmentation, Text-to-speech, Word segmentation).
